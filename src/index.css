@@ -1,13 +1,97 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #232323;
+  font-family: 'Sora';
+  font-weight: 300;
+  
+  font-size: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Rische';
+  font-weight: bolder;
+  src: url('Rische\ Bold.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: lighter;
+  src: url('Rische\ Light.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: normal;
+  src: url('Rische\ Regular.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: 500;
+  src: url('Rische\ Medium.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: bold;
+  src: url('Rische\ Bold.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+h1 {
+  font-size: 50px;
+  font-family: 'Rische';
+  font-weight: bold;
+  position: absolute;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Rische';
+  font-weight: bold;
+}
+
+h3 {
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Sora';
+  font-weight: 300;
+  margin: 0;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  outline:  red;
+  border: solid 1px red;
+  margin: 0 30px 30px 50px;
+  opacity: 1;
+}
+
+label {
+  margin-right: 30px;
+  display: inline-block;
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+
+  img {
+    width: 14px;
+    margin-right: 20px;
+  }
+
+  input {
+    width: 14px;
+    margin-right: 20px;
+  }
+  label {
+    margin-right: 20px;
+  }
 }
