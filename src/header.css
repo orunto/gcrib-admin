@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Rische';
+  font-weight: bolder;
+  src: url('Rische\ Bold.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: lighter;
+  src: url('Rische\ Light.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: normal;
+  src: url('Rische\ Regular.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: 500;
+  src: url('Rische\ Medium.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: bold;
+  src: url('Rische\ Semibold.otf');
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Rishce';
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 308px;
+}
