@@ -1,6 +1,8 @@
-const NavItem = () => {
+const NavItem = (props) => {
     return (
-        <div></div>
+        <div className='NavItem'>
+            {props.children}
+        </div>
     )
 }
 

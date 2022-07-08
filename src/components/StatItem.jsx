@@ -1,6 +1,8 @@
 const StatItem = () => {
     return (
-        <div></div>
+        <div className="StatItem">
+            <h2>N/A</h2>
+        </div>
     )
 }
 

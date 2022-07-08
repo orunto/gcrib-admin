@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import {Home, Blog, Creators, Login, Products, Reads, Starter, Stores, Videos} from './pages';
-import {Nav, Profile} from './containers';
+import {Nav, Profile, QuickStats} from './containers';
 
 import './App.css';
 
@@ -23,6 +23,7 @@ function App() {
 
       <Nav />
       <Profile />
+      <QuickStats />
     </Router>
   );
 }
