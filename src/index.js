@@ -1,24 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Header';
-import Body from './Body';
-import Edit from './Edit';
-import Add from './Add';
-import Hold from './Hold';
-import Log from './Log';
 import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Header />
-    <Body />
-    <Edit />
-    <Add />
-    <Hold />
-    <Log />
+    <App />
   </React.StrictMode>
 );
 
