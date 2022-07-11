@@ -24,6 +24,14 @@
     left: 50px;
 }
 
+
+span {
+    margin: 0;
+    font-family: 'Sora';
+    font-size: 10px;
+    font-weight: normal;
+}
+
 .Profile span {
     position: absolute;
     top: 20px;

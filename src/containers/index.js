@@ -3,3 +3,4 @@ export { default as Nav } from './Nav';
 export { default as NewPost } from './NewPost';
 export { default as Profile } from './Profile';
 export { default as QuickStats } from './QuickStats';
+export { default as Content } from './Content';

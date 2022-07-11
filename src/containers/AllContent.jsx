@@ -2,7 +2,7 @@ import '../css/AllContent.css';
 
 const AllContent = (props) => {
     return (
-        <div className="AllContent">
+        <div className="AllContent" id={props.id}>
             {props.children}
         </div>
     )

@@ -7,12 +7,16 @@ const Home = () => {
     return (
         <AllContent>
             <h1>All Stats</h1>
-            <StatItem/>
-            <StatItem/>
-            <StatItem/>
-            <StatItem/>
-            <StatItem/>
-            <StatItem/>
+            <div className="statcontainer">
+                <StatItem/>
+                <StatItem/>
+                <StatItem/>
+            </div>
+            <div className="statcontainer">
+                <StatItem/>
+                <StatItem/>
+                <StatItem/>
+            </div>
         </AllContent>
     )
 }
