@@ -6,7 +6,7 @@ import { ReactComponent as EditIco } from '../images/edit.svg';
 
 const Blog = () => {
     return (
-        <AllContent id="blogocontent">
+        <AllContent id="blogcontent">
             <h1>All Blog Posts</h1>
             <Content id="verytop">
             <input type='checkbox' id="blog1" name="blog1"/>

@@ -39,27 +39,27 @@ const Nav = () => {
 
                 <NavItem>
                     <StoresIco />
-                    Stores
+                    <a href='/stores'>Stores</a>
                 </NavItem>
 
                 <NavItem>
                     <ProductsIco />
-                    Products
+                    <a href='/products'>Products</a>
                 </NavItem>
 
                 <NavItem>
                     <ReadsIco />
-                    Reads (App)
+                    <a href='/reads'>Reads (App)</a>
                 </NavItem>
 
                 <NavItem>
                     <VideosIco />
-                    Videos (App)
+                    <a href='/videos'>Videos (App)</a>
                 </NavItem>
 
                 <NavItem>
                     <AdminIco />
-                    Admin
+                    <a href='/admins'>Admins</a>
                 </NavItem>
             </div>
         </nav>

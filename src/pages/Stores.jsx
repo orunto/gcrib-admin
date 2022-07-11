@@ -1,6 +1,10 @@
+import { AllContent } from '../containers';
+
 const Stores = () => {
     return (
-        <div></div>
+        <AllContent id="blogcontent">
+            <h1>You can’t edit stores yet</h1>
+        </AllContent>
     )
 }
 

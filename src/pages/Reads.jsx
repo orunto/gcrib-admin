@@ -1,6 +1,10 @@
+import { AllContent } from '../containers';
+
 const Reads = () => {
     return (
-        <div></div>
+        <AllContent id="blogcontent">
+            <h1>You can’t edit in-app reads yet</h1>
+        </AllContent>
     )
 }
 

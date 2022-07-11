@@ -1,6 +1,10 @@
+import { AllContent } from '../containers';
+
 const Creators = () => {
     return (
-        <div></div>
+        <AllContent id="blogcontent">
+            <h1>You can’t edit creators yet</h1>
+        </AllContent>
     )
 }
 
