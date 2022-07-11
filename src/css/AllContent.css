@@ -1,0 +1,9 @@
+.AllContent {
+    position: fixed;
+    top: 350px;
+    left: 290px;
+    width: calc(100% - 240px);
+    height: calc(100% - 400px);
+    background: lightblue;
+    overflow: scroll;
+}

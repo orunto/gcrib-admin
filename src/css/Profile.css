@@ -1,0 +1,39 @@
+.Profile {
+    position: fixed;
+    width: 250px;
+    height: 40px;
+    right: 50px;
+    top: 50px;
+}
+
+.ProfilePic {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    border-radius: 50%;
+    top: 0px;
+
+    background: url(../images/pexels-creation-hill-1681010.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Profile h4 {
+    position: absolute;
+    left: 50px;
+}
+
+.Profile span {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#logout {
+    position: absolute;
+    top: 0 !important;
+    right: 0 !important;
+    width: max-content;
+    left: unset;
+}

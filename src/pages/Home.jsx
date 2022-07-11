@@ -1,6 +1,19 @@
+import { StatItem } from "../components";
+import { AllContent } from "../containers";
+
+import '../css/Home.css';
+
 const Home = () => {
     return (
-        <div></div>
+        <AllContent>
+            <h1>All Stats</h1>
+            <StatItem/>
+            <StatItem/>
+            <StatItem/>
+            <StatItem/>
+            <StatItem/>
+            <StatItem/>
+        </AllContent>
     )
 }
 

@@ -1,6 +1,10 @@
-const AllContent = () => {
+import '../css/AllContent.css';
+
+const AllContent = (props) => {
     return (
-        <div></div>
+        <div className="AllContent">
+            {props.children}
+        </div>
     )
 }
 
