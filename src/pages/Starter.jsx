@@ -8,7 +8,7 @@ const Starter = () => {
     return (
         <AllContent id="blogcontent">
             <h1>All Starter Pack(s)</h1>
-            <Content>
+            <Content id="verytop">
             <input type='checkbox' id="blog1" name="blog1"/>
             <label for="checkbox">Select All</label>
             <span><DeleteIco />Delete Pack(s)</span>

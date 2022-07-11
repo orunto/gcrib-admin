@@ -8,7 +8,7 @@ const Blog = () => {
     return (
         <AllContent id="blogocontent">
             <h1>All Blog Posts</h1>
-            <Content>
+            <Content id="verytop">
             <input type='checkbox' id="blog1" name="blog1"/>
             <label for="checkbox">Select All</label>
             <span><DeleteIco />Delete Posts</span>
